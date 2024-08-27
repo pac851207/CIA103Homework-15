@@ -13,9 +13,8 @@ public class No2 {
 	        // 產生0到9之間的隨機數字
 	        int randomNumber = random.nextInt(10); // 10表示上限（不包含），所以範圍是0到9
 
-	        System.out.println("隨機數字: " + randomNumber);
+	        //System.out.println("隨機數字: " + randomNumber);
 	        System.out.println("開始猜數字吧!");
-	     
 	        for(;;) {
 	        	Scanner sc = new Scanner(System.in);
 //	    		System.out.println("請輸入:");
@@ -26,6 +25,5 @@ public class No2 {
 	    			System.out.println("猜錯囉");
 	    		}
 	        }
-	        
 	}
 }
